@@ -10,5 +10,6 @@ Mon, 12 Apr 14:10
   - Our
 - Modelling:
   - We will take the user stories and break them down into their Properties and Actions
-  - Create CRC cards.
-  - 
+  - Create [CRC](https://docs.google.com/spreadsheets/d/1guD8SyOlWQf3N3Usl9Pf2uQdFOrgNzlTbOdiAJif6K0/edit#gid=0) cards. 
+  - Input/output tables if necessary
+  - Front-end mockups for user journeys (single page so new frames for actions)
