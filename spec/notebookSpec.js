@@ -6,4 +6,4 @@ it("creates a note", function(){
     expect(notebook.list).toEqual([]);
 });
 
-import "../testing/testing.js"
+import { expect, it } from '../testing/testing.js';

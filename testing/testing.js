@@ -1,5 +1,3 @@
-
-
 function expect(a) {
   return {
 
@@ -19,13 +17,13 @@ function it(label, callback) {
   callback()
 }
 
-
 var notebook
 
-it("creates a note", function(){
+it("starts with an empty list of notes", function(){
     notebook = new Notebook
 
-    expect(notebook.list).toEqual([]);
+    expect(notebook.list()).toEqual([]);
 });
 
-//export {expect, it};
+
+// export {expect, it};
