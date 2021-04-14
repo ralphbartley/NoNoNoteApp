@@ -5,17 +5,19 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <script src="src/interface.js"> </script>
+  <script src="src/notebook.js"> </script>
+  <script src="src/interface.js" defer ></script>
+  
   <link rel="stylesheet" href="./public/css/main.css">
   <title>NoNoNote</title>
 </head>
 <body>
   <h1 id='page_title'>NoNoNote</h1>
   <div id="create_note">
-    <input type="text" id="note_text" placeholder="new note">
+    <textarea type="text" id="note_text" placeholder="new note"></textarea>
   </div>
   <div id="create_note_button"></div>
-    <input type="submit" id="save_note" value="Save note">
+    <button id="save_note">Save note</button>
   </div>
 
   <div id="list_notes">
