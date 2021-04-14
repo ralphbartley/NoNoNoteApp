@@ -1,5 +1,5 @@
 body {
-  background-image: url("/public/resources/NoNoNoteApp_classroom.jpg");
+  background-image: url("../resources/NoNoNoteApp_classroom.jpg");
   /* background-image: url("/public/resources/paper.jpeg"); */
   background-position: center center;
   background-repeat: no-repeat;
