@@ -20,3 +20,18 @@ Mon, 12 Apr 14:10
     - Create [CRC](https://docs.google.com/spreadsheets/d/1guD8SyOlWQf3N3Usl9Pf2uQdFOrgNzlTbOdiAJif6K0/edit#gid=0) cards.
       - Break down tasks into issues and input into GitHub, noting down further than MVP functionality we might include.  Group issues into MVP milestone so we can assign issues to pairs when we break out to do work.
     - [Front-end mockups](https://framer.com/projects/Get-Started--1RrNyvVjFtWO23CGchx4-ecYPl?node=m2dHJyJ9X) for user journeys based on user stories.
+
+
+Tues, 13 apr 17:21
+
+- Pair 1: Nata & Taran
+    - Working on Front End, setting up HTML for creating a note and listing notes
+- Pair 2: Jack & Ralph
+    - Working on Back End, model and testing. Slow progress with testing and spent a lot of time trying to get import/export to work between notebookSpec.js and testing.js, however it struggled to worked (importing null)
+        - Temporarily resolved by moving notebookSpec.js code into testing.js
+    - Set up Notebook class and functions for create and list
+- Roles:
+    - Scrum Master (stand up): Ralph
+    - Archivist: Jack
+    - Scrum Master (retro): Nata
+    - Operations Manager: Taran
