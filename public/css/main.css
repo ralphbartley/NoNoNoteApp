@@ -1,0 +1,26 @@
+body {
+  background-image: url("/public/resources/NoNoNoteApp_classroom.jpg");
+  /* background-image: url("/public/resources/paper.jpeg"); */
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#page_title {
+    margin: auto;
+    padding-top: 40px;
+    font-size: 2.4em;
+    text-align: center;
+}
+
+#create_note {
+  text-align: center;
+  padding-top: 50px;
+}
+
+#note_text {
+  width: 25%;
+  height: 160px;
+  background-color: black;
+  color: white;
+}
