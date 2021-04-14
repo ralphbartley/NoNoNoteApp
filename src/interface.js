@@ -3,18 +3,20 @@ var notebook = new Notebook;
 function noteAdder() {
   var text = document.getElementById("note_text");
   notebook.create(text.value);
+  updateNoteList();
   text.value = "";
 }
 
 function updateNoteList() {
   var newNoteList = "";
-  notebook.list().every((text, i) => {
-    var listItem = '<li># ${i} ${text}</li>';
+  notebook.list().forEach( text => {
+    text = notebook.abbreviate(text);
+    var listItem = `<li>${text}</li>`;
     newNoteList += listItem;
   });
 
-  var notesSection = document.getElementByClass("notes");
-  notesSection = newNoteList;
+  var notesSection = document.getElementById("list_notes");
+  notesSection.innerHTML = newNoteList;
 }
 
 var createButton = document.getElementById("save_note");
