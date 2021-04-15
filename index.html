@@ -6,27 +6,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <script src="src/notebook.js"> </script>
-  <script src="src/interface.js" defer> </script>
+
+  <script src="src/interface.js" defer ></script>
+
   <link rel="stylesheet" href="./public/css/main.css">
   <title>NoNoNote</title>
 </head>
 <body>
   <h1 id='page_title'>NoNoNote</h1>
   <div id="create_note">
-    <input type="text" id="note_text" placeholder="new note">
+    <textarea type="text" id="note_text" placeholder="new note"></textarea>
   </div>
   <div id="create_note_button"></div>
-    <input type="submit" id="save_note" value="Save note">
+    <button id="save_note">Save note</button>
   </div>
-
-  <div id="list_notes">
+  <span>
     <h3 id='notes_title'>My NoNoNotes</h3>
-    <ul class='notes'>
-      <li>Note 1</li>
-      <li>Note 2</li>
-      <li>Note 3</li>
-    </ul>
-    <input type="submit" id="add_note" value="Add note">
-  </div>
+    <ol>
+      <div id="list_notes"></div>
+    </ol>
+  </span>
+  
 </body>
 </html>
