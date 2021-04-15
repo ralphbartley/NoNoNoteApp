@@ -5,13 +5,14 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  position: relative;
+  /*position: relative;*/
 }
 #page_title {
     margin: auto;
     padding-top: 40px;
     font-size: 2.4em;
     text-align: center;
+    font-family: 'Gloria Hallelujah', cursive;
 }
 
 #create_note {
@@ -24,24 +25,49 @@ body {
   height: 160px;
   background-color: black;
   color: white;
+  font-family: 'Gloria Hallelujah', cursive;
 }
 
 .notepad_container {
   /* position: absolute; */
-  justify-content: center;
+  /*justify-content: center;*/
   width: 55em;
   height: 30em;
   background-image: url("../resources/NoNoNoteApp_paws.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  text-align: center; 
-  display: flex;
+  text-align: center;
+  /*display: flex;*/
   margin-left: auto;
   margin-right: auto;
 }
 
 #notes_title {
   padding-top: 200px;
-  font-size: 2em;
+  display: inline-block;
+  font-size: 3.5em;
+  font-family: 'East Sea Dokdo', cursive;
+
+}
+
+a {
+  color: black;
+}
+
+ol {
+  font-family: 'East Sea Dokdo', cursive;
+}
+
+#list_notes {
+  font-size: 3em;
+  margin-left: auto;
+  display: inline-block;
+}
+
+.list_button {
+  font-size: 1em;
+  background-color: transparent;
+  border: 0;
+  font-family: 'East Sea Dokdo', cursive;
 }
