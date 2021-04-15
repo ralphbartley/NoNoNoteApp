@@ -36,7 +36,7 @@ function updateNoteList() {
   var newNoteList = "";
   notebook.list().forEach((note, index) => {
     note = notebook.abbreviate(note);
-    var listItem = `<li><a href=#${index}>${note}</a><button type="button" id=${index}> X </button></li>`;
+    var listItem = `<li><a href=#${index}>${note}      </a><button class="list_button" type="button" id=${index}> X </button></li>`;
     newNoteList += listItem;
   });
 
@@ -84,8 +84,8 @@ function deleteNote(event) {
   updateNoteList();
 }
 
-function arrayRemove(arr, value) { 
-  return arr.filter(function(ele){ 
-    return ele != value; 
+function arrayRemove(arr, value) {
+  return arr.filter(function(ele){
+    return ele != value;
   });
 }
