@@ -23,3 +23,6 @@ const strObj = new String('a');
 equals(a, b); // true
 equals([str], [strObj]); // false
 equals([null], [undefined]); // false
+
+
+emojis from https://makers-emojify.herokuapp.com/
