@@ -1,16 +1,15 @@
 body {
   background-image: url("../resources/NoNoNoteApp_classroom.jpg");
-  /* background-image: url("/public/resources/paper.jpeg"); */
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
 #page_title {
-    margin: auto;
-    padding-top: 40px;
-    font-size: 2.4em;
-    text-align: center;
+  margin: auto;
+  padding-top: 40px;
+  font-size: 2.4em;
+  text-align: center;
 }
 
 #create_note {
@@ -23,4 +22,26 @@ body {
   height: 160px;
   background-color: black;
   color: white;
+}
+
+.paws {
+  position: relative;
+  text-align: center;
+}
+.centered {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#notes_title {
+  font-family: 'Homemade Apple', cursive;
+  font-size: 20px;
+}
+
+#list_notes {
+  font-family: 'Homemade Apple', cursive;
+  font-size: 15px;
+  text-align: left;
 }
