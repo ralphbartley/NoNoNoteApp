@@ -26,6 +26,7 @@ function noteAdder() {
   .then(data => {
     console.log(data);
     notebook.create(data.emojified_text);
+    localStorage.setItem("notes", notebook.notes)
     updateNoteList()
     text.value = "";
   });
@@ -48,9 +49,13 @@ var createButton = document.getElementById("save_note");
 
 createButton.addEventListener("click", noteAdder);
 
-var newButton = document.getElementById("add_note");
-
 displayNote()
+
+var storedNotes = localStorage.getItem("notes");
+if (storedNotes !== null){
+  notebook.notes = storedNotes.split(",");
+  updateNoteList();
+}
 
 function displayNote() {
   window.addEventListener("hashchange", getNote);
@@ -75,6 +80,7 @@ function deleteButtonListner() {
 function deleteNote(event) {
   var button_id = event.target.id
   notebook.notes = arrayRemove(notebook.notes, notebook.notes[button_id]);
+  localStorage.setItem("notes", notebook.notes)
   updateNoteList();
 }
 
