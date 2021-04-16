@@ -7,18 +7,6 @@ body {
   background-attachment: fixed;
   /*position: relative;*/
 }
-#page_title {
-    margin: auto;
-    padding-top: 40px;
-    font-size: 2.4em;
-    text-align: center;
-    font-family: 'Graduate', cursive;
-}
-
-#create_note {
-  text-align: center;
-  padding-top: 50px;
-}
 
 #chalkboard {
   position: absolute;
@@ -33,16 +21,33 @@ body {
   background-size: auto;
 }
 
+#page_title {
+    position: absolute;
+    /* margin: auto; */
+    /* padding-top: 40px; */
+    top: -2.5%;
+    left: 30%;
+    font-size: 2.4em;
+    text-align: center;
+    font-family: 'Graduate', cursive;
+}
+
+#create_note {
+  text-align: center;
+  padding-top: 50px;
+}
+
 #note_text {
   border: 0;
   position: relative;
-  top: -200px;
+  top: -100px;
   left: 0px;
   width: 350px;
   height: 200px;
   background-color: black;
   color: white;
   font-family: 'Gloria Hallelujah', cursive;
+  font-size: 1.2em;
 }
 
 #save_note {
@@ -61,6 +66,7 @@ body {
   background-color: transparent;
   border: 0;
   font-family: 'Hachi Maru Pop', cursive;
+  padding-right: 30px;
 }
 
 .notepad_container {
