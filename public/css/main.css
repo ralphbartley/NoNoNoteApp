@@ -28,7 +28,6 @@ body {
   font-family: 'Gloria Hallelujah', cursive;
 }
 
-
 #save_note {
   position: fixed;
   left: 63%;
@@ -89,4 +88,8 @@ ol {
   background-color: transparent;
   border: 0;
   font-family: 'East Sea Dokdo', cursive;
+  background-image: url("../resources/NoNoNoteApp_eraser.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }

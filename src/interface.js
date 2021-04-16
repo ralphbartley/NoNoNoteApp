@@ -36,7 +36,7 @@ function updateNoteList() {
   var newNoteList = "";
   notebook.list().forEach((note, index) => {
     note = notebook.abbreviate(note);
-    var listItem = `<li><a href=#${index}>${note}      </a><button class="list_button" type="button" id=${index}> X </button></li>`;
+    var listItem = `<li><a href=#${index}>${note}</a><button class="list_button" type="button" id=${index}>_</button></li>`;
     newNoteList += listItem;
   });
 
