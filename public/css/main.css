@@ -1,6 +1,5 @@
 body {
   background-image: url("../resources/NoNoNoteApp_classroom.jpg");
-  /* background-image: url("/public/resources/paper.jpeg"); */
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -13,6 +12,45 @@ body {
     font-size: 2.4em;
     text-align: center;
     font-family: 'Graduate', cursive;
+}
+
+
+.clock_container {
+  position: fixed;
+  left: 68%;
+  bottom: 80%;
+  width: 20%;
+  height: 20%;
+  background-image: url("../resources/clock_face.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.clock_hour {
+  position: fixed;
+  left: 75%;
+  bottom: 89%;
+  width: 5%;
+  height: 5%;
+  background-image: url("../resources/hours.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  animation: clockwise 10s linear infinite;
+}
+
+.clock_minute {
+  position: fixed;
+  left: 75%;
+  bottom: 89%;
+  width: 5%;
+  height: 5%;
+  background-image: url("../resources/minutes.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  animation: clockwise 1s linear infinite;
 }
 
 #create_note {
@@ -64,9 +102,8 @@ body {
 #notes_title {
   padding-top: 200px;
   display: inline-block;
-  font-size: 3.5em;
-  font-family: 'East Sea Dokdo', cursive;
-
+  font-size: 35px;
+  font-family: 'Homemade Apple', cursive;
 }
 
 a {
@@ -74,11 +111,11 @@ a {
 }
 
 ol {
-  font-family: 'East Sea Dokdo', cursive;
+  font-family: 'Homemade Apple', cursive;
 }
 
 #list_notes {
-  font-size: 3em;
+  font-size: 25px;
   margin-left: auto;
   display: inline-block;
 }
@@ -92,4 +129,39 @@ ol {
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
+}
+
+.list_button:hover {
+  animation: shake 0.82s cubic-bezier(.50, .50, .50, .50) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+@keyframes shake {
+  85%,
+  10% {
+    transform: translate3d(-75px, 0, 0);
+  }
+  70%,
+  20% {
+    transform: translate3d(-150px, 0, 0);
+  }
+  60%,
+  30% {
+    transform: translate3d(-225px, 0, 0);
+  }
+  50%,
+  40% {
+    transform: translate3d(-300px, 0, 0);
+  }
+}
+
+@keyframes clockwise {
+  0% {
+    transform: rotateZ(0);
+  }
+  100% {
+    transform: rotateZ(360deg);
+  }
 }
