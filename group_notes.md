@@ -70,12 +70,13 @@ Thurs, 15 apr 18:00
     - Operations Manager: Jack
 
 
-Fri, 16 apr --:--
+Fri, 16 apr 12:50
 
 - Pair 1: Nata & Ralph
     - Working on styling a container for the blackbaord
+    - Added animation for the poster
 - Pair 2: Jack & Taran
-    - Delete button and merging two notepad branches
+    - Delete button and merging two notepad branches (fonts & eraser image)
     - Animations for clock and button
    
 - Roles:
