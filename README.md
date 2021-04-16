@@ -1,7 +1,7 @@
 *Team*
-Jack Hooper
-Nata Sherchenkova
-Ralph Bartley
+Jack Hooper, 
+Nata Sherchenkova, 
+Ralph Bartley, 
 Taran Nandhra
 
 Project start: 12/04/2021
