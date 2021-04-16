@@ -6,9 +6,44 @@ body {
   background-attachment: fixed;
   /*position: relative;*/
 }
+
+#poster {
+  position: absolute;
+  top: 7%;
+  left: 5%;
+  width: 190px;
+  height: 300px;
+  background-image: url("../resources/poster.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+  animation: mymove 5s;
+}
+
+@keyframes mymove {
+  from {top: 0px;}
+  to {top: 80px;}
+}
+
+#chalkboard {
+  position: absolute;
+  top: 0%;
+  left: 28%;
+  padding-top: 200px;
+  width: 600px;
+  height: 250px;
+  background-image: url("../resources/NoNoNoteApp_blackboard.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+}
+
 #page_title {
-    margin: auto;
-    padding-top: 40px;
+    position: absolute;
+    /* margin: auto; */
+    /* padding-top: 40px; */
+    top: -2.3%;
+    left: 30%;
     font-size: 2.4em;
     text-align: center;
     font-family: 'Graduate', cursive;
@@ -59,11 +94,16 @@ body {
 }
 
 #note_text {
-  width: 25%;
-  height: 160px;
+  border: 0;
+  position: relative;
+  top: -100px;
+  left: 0px;
+  width: 350px;
+  height: 200px;
   background-color: black;
   color: white;
   font-family: 'Gloria Hallelujah', cursive;
+  font-size: 1.2em;
 }
 
 #save_note {
@@ -82,11 +122,14 @@ body {
   background-color: transparent;
   border: 0;
   font-family: 'Hachi Maru Pop', cursive;
+  padding-right: 30px;
 }
 
 .notepad_container {
-  float: bottom;
   /*justify-content: center;*/
+  margin-top: 30px;
+  position: relative;
+  top: 400px;
   width: 55em;
   height: 30em;
   background-image: url("../resources/NoNoNoteApp_paws.png");
