@@ -35,3 +35,51 @@ Tues, 13 apr 17:21
     - Archivist: Jack
     - Scrum Master (retro): Nata
     - Operations Manager: Taran
+
+
+Weds, 14 apr 17:35
+
+- Pair 1: Nata & Taran
+    
+- Pair 2: Jack & Ralph
+    
+- Roles:
+    - Scrum Master (stand up): Taran
+    - Archivist: Ralph
+    - Scrum Master (retro): Jack
+    - Operations Manager: Nata
+
+
+Thurs, 15 apr 18:00
+
+- Pair 1: Nata & Ralph
+    
+- Pair 2: Jack & Taran
+   
+   We both ended up working on the paws notepad accidentally and learnt a valuable lesson in the importance of communication!
+   
+   Takeaways:
+        - Updating the trello board is key!
+        - Ensuring that everyone knows what they are doing before the end of the stand up
+        - That even though we worked on the same section, both pairs took different approaches and came up with creative solutions
+   
+- Roles:
+    - Scrum Master (stand up): Nata
+    - Archivist: Taran
+    - Scrum Master (retro): Ralph
+    - Operations Manager: Jack
+
+
+Fri, 16 apr --:--
+
+- Pair 1: Nata & Ralph
+    - Working on styling a container for the blackbaord
+- Pair 2: Jack & Taran
+    - Delete button and merging two notepad branches
+    - Animations for clock and button
+   
+- Roles:
+    - Scrum Master (stand up): Jack
+    - Archivist: Nata
+    - Scrum Master (retro): Taran
+    - Operations Manager: Ralph
