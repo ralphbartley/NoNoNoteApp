@@ -20,9 +20,26 @@ body {
   padding-top: 50px;
 }
 
+#chalkboard {
+  position: absolute;
+  top: 0%;
+  left: 28%;
+  padding-top: 200px;
+  width: 600px;
+  height: 250px;
+  background-image: url("../resources/NoNoNoteApp_blackboard.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+}
+
 #note_text {
-  width: 25%;
-  height: 160px;
+  border: 0;
+  position: relative;
+  top: -200px;
+  left: 0px;
+  width: 350px;
+  height: 200px;
   background-color: black;
   color: white;
   font-family: 'Gloria Hallelujah', cursive;
@@ -48,8 +65,10 @@ body {
 }
 
 .notepad_container {
-  float: bottom;
   /*justify-content: center;*/
+  margin-top: 30px;
+  position: relative;
+  top: 400px;
   width: 55em;
   height: 30em;
   background-image: url("../resources/NoNoNoteApp_paws.png");
