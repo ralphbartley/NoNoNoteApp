@@ -12,7 +12,7 @@ body {
     padding-top: 40px;
     font-size: 2.4em;
     text-align: center;
-    font-family: 'Gloria Hallelujah', cursive;
+    font-family: 'Graduate', cursive;
 }
 
 #create_note {
@@ -28,8 +28,27 @@ body {
   font-family: 'Gloria Hallelujah', cursive;
 }
 
+
+#save_note {
+  position: fixed;
+  left: 63%;
+  bottom: 63%;
+  width: 20%;
+  height: 20%;
+  background-image: url("../resources/speach_bubble.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  text-align: center;
+  /*display: flex;*/
+  font-size: 130%;
+  background-color: transparent;
+  border: 0;
+  font-family: 'Hachi Maru Pop', cursive;
+}
+
 .notepad_container {
-  /* position: absolute; */
+  float: bottom;
   /*justify-content: center;*/
   width: 55em;
   height: 30em;
