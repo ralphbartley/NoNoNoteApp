@@ -22,6 +22,12 @@ To ensure that our Back End code works as intended we have created a testing fra
 - Style our web application to match our mock up
 - Clean code (DRY)
 
+*Things to improve*
+
+ - Communication! Making sure we remember to outline everything that needs to be done, including any change of plans
+ - Making the focal point of the clock hands' animation to be at the bottom left of the image rather than the centre
+ - Implementing a lessons learned for the team at the end of the working day
+
 
 
 
